@@ -1,6 +1,7 @@
 {
   "name": "mediconnect-frontend",
   "version": "1.0.0",
+  "homepage": "https://sameera776.github.io/MediConnect",
   "dependencies": {
     "axios": "^1.4.0",
     "jwt-decode": "^4.0.0",
@@ -13,7 +14,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -26,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
