@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MediConnect/static/css/main.17ba192e.css",
+    "main.js": "/MediConnect/static/js/main.3b1253b3.js",
+    "index.html": "/MediConnect/index.html",
+    "main.17ba192e.css.map": "/MediConnect/static/css/main.17ba192e.css.map",
+    "main.3b1253b3.js.map": "/MediConnect/static/js/main.3b1253b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17ba192e.css",
+    "static/js/main.3b1253b3.js"
+  ]
+}
